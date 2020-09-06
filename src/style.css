@@ -1,0 +1,137 @@
+body{
+    background-image: url("https://us.123rf.com/450wm/olegganko/olegganko1704/olegganko170400124/75473714-cool-seamless-pattern-abstract-spiral-psychedelic-art-background-ve.jpg?ver=6");
+    background-size: 300px;
+}
+
+#root2{
+    background-color: rgba(207, 27, 27, 0);
+    margin-top:20px;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#editor{
+    max-width: 600px;
+    width:90%;
+    padding:0px;
+    border-radius: 2px;
+    margin: 0px 0px 20px 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black ;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    display:flex;
+    flex-direction: column;
+}
+
+#editor-full{
+    width: 95%;
+    padding:0px;
+    border-radius: 2px;
+    margin: 0px;
+    box-shadow: 0 0 10px black ;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(29, 173, 154);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    box-sizing: border-box;
+    padding:7px;
+    width:100%;
+    border-radius: 2px;
+    margin:0px 0px 0px 0px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.icon-text{
+    margin:0px;
+}
+
+.btn-full-screen {
+    padding:0px;
+    margin:0px;
+    background-color: rgba(209, 21, 21, 0);
+    border:none;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn-full-screen:hover{
+    color: rgb(55, 255, 55);
+}
+
+
+#editor-input{
+    background-color: rgb(174, 219, 213);
+    box-sizing: border-box;
+    width:100%;
+    min-height: 200px;
+    margin:0px;
+    padding:10px;
+    outline: none;
+    border-radius: 2px;
+    resize: vertical; 
+}
+
+#editor-full-input{
+    background-color: rgb(174, 219, 213);
+    box-sizing: border-box;
+    width:100%;
+    padding:10px;
+    min-height: 90vh;
+    outline: none;
+    border-radius: 2px;
+    resize: none; 
+}
+
+#previewer{
+    max-width: 700px;
+    width:100%;
+    padding:0px;
+    border-radius: 2px;
+    margin: 20px 0px 0px 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black ;
+    border:none;
+}
+
+#previewer-full{
+    width: 95%;
+    padding:0px;
+    border-radius: 2px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black ;
+    border:none;
+}
+
+#markdown{
+    background-color: rgb(174, 219, 213);
+    width: 100%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+#markdown-full{
+    background-color: rgb(174, 219, 213);
+    width: 100%;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding:10px;
+    border: 1px solid black;
+}
